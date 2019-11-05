@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="394.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.BonusTilesController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="578.0" layoutX="1.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <StackPane fx:id="wait" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="569.4478149414062" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="569.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+               </image>
+               <effect>
+                  <Shadow color="#000000c1" />
+               </effect>
+            </ImageView>
+            <Label prefHeight="111.0" prefWidth="517.0" text="Wait for the other model.players" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <AnchorPane fx:id="bonusTilesPane" layoutX="69.0" layoutY="14.0">
+         <children>
+            <StackPane onMouseClicked="#onClick" visible="false">
+               <children>
+                  <ImageView fitHeight="377.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/bonus_tiles/personalbonustile_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="116.0" onMouseClicked="#onClick" visible="false">
+               <children>
+                  <ImageView fitHeight="377.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/bonus_tiles/personalbonustile_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="231.0" onMouseClicked="#onClick" visible="false">
+               <children>
+                  <ImageView fitHeight="377.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/bonus_tiles/personalbonustile_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="343.0" onMouseClicked="#onClick" visible="false">
+               <children>
+                  <ImageView fitHeight="377.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/bonus_tiles/personalbonustile_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

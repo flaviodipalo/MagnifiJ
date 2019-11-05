@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ChooseCostsController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="592.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+         <effect>
+            <Shadow height="145.46" radius="76.785" width="163.68" />
+         </effect>
+      </ImageView>
+      <AnchorPane id="cost0" layoutX="38.0" layoutY="65.0" onMouseClicked="#onCostSelected" onMouseEntered="#onFieldEntered" onMouseExited="#onFieldExited" prefHeight="273.0" prefWidth="130.0">
+         <children>
+            <AnchorPane id="coins" fx:id="coins1" layoutX="3.0" prefHeight="27.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/coin_1_front.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="41.0" layoutY="5.0" text="0" textFill="WHITE" />
+                  <Label layoutX="82.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="servants" fx:id="servants1" layoutX="8.0" layoutY="39.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/servant.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="36.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="76.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="stone" fx:id="stone1" layoutX="1.0" layoutY="80.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/stone.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="43.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="83.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="wood" fx:id="wood1" layoutY="120.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/wood.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="44.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="85.0" layoutY="6.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="faithPoints" fx:id="faith1" layoutX="4.0" layoutY="161.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/faith_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="militaryPoints" fx:id="military1" layoutX="4.0" layoutY="205.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/military_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="82.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="victoryPoints" fx:id="victory1" layoutX="4.0" layoutY="247.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/victory_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="337.0" layoutY="31.0" text="Current Resources:" textFill="WHITE" />
+      <Label layoutX="14.0" layoutY="31.0" text="Cost1:" textFill="WHITE" />
+      <Label layoutX="168.0" layoutY="31.0" text="Cost2:" textFill="WHITE" />
+      <AnchorPane fx:id="currentResources" layoutX="456.0" layoutY="64.0">
+         <children>
+            <AnchorPane id="coins" layoutX="3.0">
+               <children>
+                  <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/coin_1_front.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="coins" layoutX="41.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="servants" layoutX="8.0" layoutY="39.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/servant.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="servants" layoutX="36.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="stone" layoutX="1.0" layoutY="80.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/stone.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="stone" layoutX="43.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="wood" layoutY="120.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/wood.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="wood" layoutX="44.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="faithPoints" layoutX="4.0" layoutY="161.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/faith_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="faith" layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="militaryPoints" layoutX="4.0" layoutY="205.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/military_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="military" layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="victoryPoints" layoutX="4.0" layoutY="247.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/victory_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="victory" layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="38.0" layoutY="48.0" text="needed:" textFill="WHITE" />
+      <Label layoutX="101.0" layoutY="48.0" text="to pay:" textFill="WHITE" />
+      <AnchorPane id="cost1" fx:id="cost1" layoutX="199.0" layoutY="65.0" onMouseClicked="#onCostSelected" onMouseEntered="#onFieldEntered" onMouseExited="#onFieldExited" prefHeight="273.0" prefWidth="130.0">
+         <children>
+            <AnchorPane id="coins" fx:id="coins2" layoutX="3.0" prefHeight="27.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/coin_1_front.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="41.0" layoutY="5.0" text="0" textFill="WHITE" />
+                  <Label layoutX="82.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="servants" fx:id="servants2" layoutX="8.0" layoutY="39.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/servant.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="36.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="76.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="stone" fx:id="stone2" layoutX="1.0" layoutY="80.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/stone.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="43.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="83.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="wood" fx:id="wood2" layoutY="120.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/wood.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="44.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="85.0" layoutY="6.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="faithPoints" fx:id="faith2" layoutX="4.0" layoutY="161.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/faith_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="militaryPoints" fx:id="military2" layoutX="4.0" layoutY="205.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/military_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="82.0" layoutY="4.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="victoryPoints" fx:id="victory2" layoutX="4.0" layoutY="247.0" prefHeight="26.0" prefWidth="104.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/tools/victory_points.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="40.0" layoutY="4.0" text="0" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="5.0" text="0" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="199.0" layoutY="48.0" text="needed:" textFill="WHITE" />
+      <Label layoutX="257.0" layoutY="48.0" text="to pay:" textFill="WHITE" />
+      <Separator layoutX="8.0" layoutY="97.0" prefHeight="5.0" prefWidth="552.0" />
+      <Separator layoutX="9.0" layoutY="135.0" prefHeight="5.0" prefWidth="552.0" />
+      <Separator layoutX="10.0" layoutY="175.0" prefHeight="5.0" prefWidth="552.0" />
+      <Separator layoutX="8.0" layoutY="216.0" prefHeight="5.0" prefWidth="552.0" />
+      <Separator layoutX="8.0" layoutY="257.0" prefHeight="5.0" prefWidth="552.0" />
+      <Separator layoutX="9.0" layoutY="305.0" prefHeight="5.0" prefWidth="552.0" />
+   </children>
+</AnchorPane>

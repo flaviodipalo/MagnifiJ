@@ -1,0 +1,350 @@
+{
+  "perTurnLeaderCards":[
+
+    {
+      "name": "Francesco Sforza",
+      "id" : "01",
+      "description": "perform a Harvest action at value 1",
+      "leaderRequirements":[
+        {
+          "purpleCardNeeded": "5"
+        }
+      ],
+      "leaderReward" : {
+
+        "leaderRewardHarvest":{
+          "value": "1"
+        }
+
+      }
+
+    },
+
+    {
+      "name": "Federico da Montefeltro",
+      "id" : "04",
+      "description": "one of your colored familyMember has a value of 6",
+      "leaderRequirements":[
+        {
+          "greenCardNeeded": "6"
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardFedericoDaMontefeltro":{
+        }
+      }
+    },
+
+    {
+      "name": "Girolamo Savonarola",
+      "id" : "05",
+      "description": "gain 1 faith points",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "coins": "18"
+          }
+        }
+      ],
+      "leaderReward" : {
+
+        "leaderRewardResources":{
+          "resources":{
+            "faithPoints": "1"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Giovanni dalle Bande Nere",
+      "id" : "06",
+      "description": "receive 1 wood, 1 stone and 1 coin",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "militaryPoints": "12"
+          }
+        }
+      ],
+      "leaderReward" : {
+
+        "leaderRewardResources":{
+          "resources":{
+            "coins": "1",
+            "wood": "1",
+            "stone": "1"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Sandro Botticelli",
+      "id" : "07",
+      "description": "gain 2 militaryPoints and 1 victoryPoints",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "wood": "10"
+          }
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardResources":{
+          "resources":{
+            "militaryPoints": "2",
+            "victoryPoints": "1"
+          }
+        }
+      }
+
+    },
+
+    {
+     "name": "Michelangelo Buonarroti",
+      "id" : "08",
+      "description": "gain 3 coins",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "stone": "10"
+          }
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardResources":{
+          "resources":{
+            "coins": "3"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Ludovico III Gonzaga",
+      "id" : "09",
+      "description": "gain 1 councilPrivilege",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "servants": "15"
+          }
+        }
+      ],
+      "leaderReward" : {
+
+        "leaderRewardResources":{
+          "resources":{
+            "councilPrivilege": "1"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Leonardo da Vinci",
+      "id" : "10",
+      "description": "perform a production action at value 0",
+      "leaderRequirements":[
+        {
+          "blueCardNeeded": "4",
+          "greenCardNeeded": "2"
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardProduction":{
+          "value": "0"
+        }
+      }
+
+    },
+
+    {
+      "name": "Cosimo de' Medici",
+      "id" : "19",
+      "description": "gain 3 servants and 1 victoryPoint",
+      "leaderRequirements": [
+        {
+          "blueCardNeeded": "2",
+          "yellowCardNeeded": "4"
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardResources":{
+          "resources":{
+            "servants": "3",
+            "victoryPoints": "1"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Bartolomeo Colleoni",
+      "id" : "20",
+      "description": "gain 4 victoryPoints",
+      "leaderRequirements":[
+        {
+          "purpleCardNeeded": "2",
+          "greenCardNeeded": "4"
+        }
+      ],
+      "leaderReward" : {
+        "leaderRewardResources":{
+          "resources":{
+            "victoryPoints": "4"
+          }
+        }
+      }
+
+    },
+
+    {
+      "name": "Lucrezia Borgia",
+      "id" : "13",
+      "description": "your colored familyMembers have a bonus of +2 on their value",
+      "leaderRequirements":[
+        {
+          "greenCardNeeded": "6"
+        },
+        {
+          "blueCardNeeded": "6"
+        },
+        {
+          "yellowCardNeeded": "6"
+        },
+        {
+          "purpleCardNeeded": "6"
+        }
+      ]
+    },
+
+    {
+      "name": "Ludovico il Moro",
+      "id" : "16",
+      "description": "your colored familyMember have a value of 5",
+      "leaderRequirements": [
+        {
+          "greenCardNeeded": "2",
+          "blueCardNeeded": "2",
+          "yellowCardNeeded": "2",
+          "purpleCardNeeded": "2"
+        }
+      ]
+    },
+
+    {
+      "name": "Sigismondo Malatesta",
+      "id" : "14",
+      "description": "your neutral familyMember has a bonus of +3 on his value",
+      "leaderRequirements":[
+        {
+          "resources":{
+            "militaryPoints": "7",
+            "faithPoints": "3"
+          }
+        }
+      ]
+    }
+  ],
+
+
+  "permanentLeaderCards":[
+    {
+      "name": "Pico della Mirandola",
+      "id" : "11",
+      "description": "when you take a developmentCard, you get a discount of 3 coins",
+      "leaderRequirements": [
+        {
+          "yellowCardNeeded": "2",
+          "purpleCardNeeded": "4"
+        }
+      ]
+    },
+
+    {
+      "name": "Ludovico Ariosto",
+      "id" : "02",
+      "description": "you can place your familyMembers in occupied action spaces",
+      "leaderRequirements": [
+        {
+          "blueCardNeeded": "5"
+        }
+      ]
+    },
+
+    {
+      "name": "Cesare Borgia",
+      "id" : "17",
+      "description": "you don't need to satisfy the militaryPoints requirements when you take a green card",
+      "leaderRequirements": [
+        {
+          "yellowCardNeeded": "3",
+          "resources":{
+            "coins": "12",
+            "faithPoints": "2"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Filippo Brunelleschi",
+      "id" : "03",
+      "description": "you don't have to spend 3 coins when you place your familyMember in an occupied tower",
+      "leaderRequirements": [
+        {
+          "yellowCardNeeded": "3"
+        }
+      ]
+    },
+
+    {
+      "name": "Santa Rita",
+      "id" : "18",
+      "description": "each time you receive wood, coins, servants or stone from immediateEffects, you receive resources twice",
+      "leaderRequirements": [
+        {
+          "resources": {
+            "faithPoints": "8"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Sisto IV",
+      "id" : "12",
+      "description": "you gain 5 additional victoryPoints when you support the Church",
+      "leaderRequirements": [
+        {
+          "resources": {
+            "coins": "6",
+            "wood": "6",
+            "stone": "6",
+            "servants": "6"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Lorenzo de' Medici",
+      "id" : "15",
+      "description": "copy the ability of another leaderCard already played by another player",
+      "leaderRequirements": [
+        {
+          "resources":{
+            "victoryPoints": "35"
+          }
+        }
+      ]
+    }
+    ]
+}

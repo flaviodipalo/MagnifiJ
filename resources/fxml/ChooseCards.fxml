@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ChooseCardsController">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="740.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../pictures/board/backgroud_family_member.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="cards" layoutX="14.0" layoutY="14.0">
+         <children>
+            <StackPane onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="184.0" onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="368.0" onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutY="264.0" onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="184.0" layoutY="264.0" onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="368.0" layoutY="264.0" onMouseClicked="#onCardSelected" visible="false">
+               <children>
+                  <ImageView fitHeight="263.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/LorenzoCards/devcards_b_c_b_1.jdevcards_b_c_pdevcards_b_c_g.jdevcards_b_c_pg.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="565.0" layoutY="444.0" mnemonicParsing="false" onAction="#onConfirm" prefHeight="80.0" prefWidth="173.0" text="Confirm" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,316 @@
+{
+  "excommunicationCards1": [
+    {
+      "id": "1",
+      "period": "FIRST",
+      "description": "Each time you gain Military Points (from action spaces or from your Cards), gain 1 fewer Military Point. (If you have more Cards that give you Military Points, consider each Card a single source, so you gain -1 Military Point for each card.)",
+      "excommunicationState":
+        {
+          "excommunicationAddResourcesState":
+            {
+              "resourcesSubtractedForEachResource": "1",
+              "resourcesToSubtract": [
+                {
+                  "militaryPoints": "1"
+                }
+              ]
+            }
+
+        }
+
+    },
+
+
+    {
+      "id": "2",
+      "period": "FIRST",
+      "description": "Each time you receive coins (from action spaces or from your Cards), you receive 1 fewer coin. (If you have more Cards that give you coins, consider each Card a single source, so you receive -1 coin for each card.)",
+      "excommunicationState" :
+        {
+          "excommunicationAddResourcesState":
+            {
+              "resourcesSubtractedForEachResource": "1",
+              "resourcesToSubtract": [
+                {
+                  "coins": "1"
+                }
+              ]
+            }
+
+        }
+
+
+    },
+    {
+      "id": "3",
+      "period": "FIRST",
+      "description": "Each time you receive servants (from action spaces or from your Cards), you receive 1 fewer servant. (If you have more Cards that give you servants, consider each Card a single source, so you receive -1 servant for each card.)",
+      "excommunicationState" :
+        {
+          "excommunicationAddResourcesState":
+            {
+              "resourcesSubtractedForEachResource": "1",
+              "resourcesToSubtract": [
+                {
+                  "servants": "1"
+                }
+              ]
+            }
+
+        }
+
+
+    },
+    {
+      "id": "4",
+      "period": "FIRST",
+      "description": "Each time you receive wood or stone (from action spaces or from your Cards), you receive 1 fewer wood or stone. (If you have more Cards that give you wood and stone, consider each Card a single source, so you receive -1 wood/stone for each card.)",
+      "excommunicationState" :
+        {
+          "excommunicationAddResourcesState":
+            {
+              "resourcesSubtractedForEachResource": "1",
+              "resourcesToSubtract": [
+                {
+                  "wood": "1"
+                },
+                {
+                  "stone": "1"
+                }
+              ]
+            }
+
+        }
+
+
+    },
+    {
+      "id": "5",
+      "period": "FIRST",
+      "description": "Each time you perform a Harvest action (through the action space or as a Card effect), decrease its value by 3. You may still spend servants to increase the action value and you must apply your Card’s effects. (If you place in the second action space, your action value is decreased by 6.)",
+      "excommunicationState" :
+        {
+          "excommunicationHarvestState":
+            {
+              "harvestBonus": "-3"
+            }
+
+        }
+
+
+    },
+    {
+      "id": "6",
+      "period": "FIRST",
+      "description": "Each time you perform a Production action (through the action space or as a Card effect), decrease its value by 3. You may still spend servants to increase the action value and you must apply your Card’s effects. (If you place in the large action space, your action value is decreased by 6.)",
+      "excommunicationState" :
+        {
+          "excommunicationProductionState":
+            {
+              "productionBonus": "-3"
+            }
+
+        }
+
+
+    },
+    {
+      "id": "7",
+      "period": "FIRST",
+      "description": "All your colored Family Members receive a -1 reduction of their value each time you place them. (For example, if you roll a 5 on the black die, your Family Member with the black die symbol has a value of 4.) You may still spend servants to increase their value and you must apply your Card’s effects.",
+      "excommunicationState" :
+        {
+          "excommunicationFamilyMemberState":
+            {
+              "valueToSubtract": "1"
+            }
+
+        }
+
+        }
+      ],
+
+
+  "excommunicationCards2": [
+    {
+      "id": "1",
+      "period": "SECOND",
+      "description": "All your colored Family Members receive a -1 reduction of their value each time you place them. (For example, if you roll a 5 on the black die, your Family Member with the black die symbol has a value of 4.) You may still spend servants to increase their value and you must apply your Card’s effects.Each time you take a Territory Card (through the action space or as a Card effect), your action receives a -4 reduction of its value. You may still spend servants to increase the action value and you must apply your Card’s effects.",
+      "excommunicationState" :
+        {
+          "excommunicationPickCardState":
+            {
+              "cardColor": "GREEN",
+              "bonusDiceValue": "-4"
+            }
+
+        }
+
+
+    },
+    {
+      "id": "2",
+      "period": "SECOND",
+      "description": "Each time you take a Building Card (through the action space or as a Card effect), your action receives a reduction of -4 of its value. You may still spend servants to increase the action value and you must apply your Card’s effects.",
+      "excommunicationState" :
+        {
+          "excommunicationPickCardState":
+            {
+              "cardColor": "YELLOW",
+              "bonusDiceValue": "-4"
+            }
+
+        }
+
+
+    },
+    {
+      "id": "3",
+      "period": "SECOND",
+      "description": "Each time you take a Character Card (through the action space or as a Card effect), your action receives a -4 reduction of its value. You may still spend servants to increase the action value,and you must apply your Card’s effects.",
+      "excommunicationState" : {
+        "excommunicationPickCardState": {
+          "cardColor": "BLUE",
+          "bonusDiceValue": "-4"
+        }
+
+      }
+
+    },
+    {
+      "id": "4",
+      "period": "SECOND",
+      "description": "Each time you take a Venture Card (through the action space or as a Card effect), your action receives a -4 reduction of its value. You may still spend servants to increase the action value and you must apply your Card’s effects.",
+      "excommunicationState" : {
+        "excommunicationPickCardState": {
+            "cardColor": "PURPLE",
+            "bonusDiceValue": "-4"
+        }
+
+      }
+
+    },
+    {
+      "id": "5",
+      "period": "SECOND",
+      "description": "You can’t place your Family Members in the Market action spaces.",
+      "excommunicationState" : {
+        "excommunicationMarketState" : {
+
+        }
+      }
+
+    },
+    {
+      "id": "6",
+      "period": "SECOND",
+      "description": "You have to spend 2 servants to increase your action value by 1 (and 4 servants to increase it by 2, and so on...).",
+      "excommunicationState" : {
+        "excommunicationAddServantsState":
+          {
+            "servantsNeededToAddValue": "2"
+          }
+
+      }
+
+    },
+    {
+      "id": "7",
+      "period": "SECOND",
+      "description": "Each round, you skip your  first turn. (When you have to place your first Family Member, you have to pass.) You start taking actions from the second turn (in the appropriate turn order.) When all players have taken all their turns, you may still place your last Family Member.",
+      "excommunicationState" : {
+        "excommunicationSkipTurnState": {
+
+        }
+      }
+
+    }
+  ],
+  "excommunicationCards3": [
+    {
+      "id": "1",
+      "period": "THIRD",
+      "description": "At the end of the game, you don’t score points for any of your Influenced Characters.",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateCards":
+          {
+            "cardColor": "BLUE"
+          }
+
+      }
+
+    },
+    {
+      "id": "2",
+      "period": "THIRD",
+      "description": "At the end of the game, you don’t score points for any of your Encouraged Ventures.",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateCards": {
+            "cardColor": "PURPLE"
+        }
+
+      }
+
+    },
+    {
+      "id": "3",
+      "period": "THIRD",
+      "description": "At the end of the game, you don’t score points for any of your Conquered Territories.",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateCards": {
+            "cardColor": "GREEN"
+        }
+
+      }
+
+    },
+    {
+      "id": "4",
+      "period": "THIRD",
+      "description": "At the end of the game, before the Final Scoring, you lose 1 Victory Point for every 5 Victory Points you have. (For example, if you have 26 Victory Points before the Final Scoring, you lose 5 Victory Points.)",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateVictoryPoints": {
+            "pointsNeededToLoseOneVictoryPoint": "5"
+        }
+
+      }
+
+    },
+    {
+      "id": "5",
+      "period": "THIRD",
+      "description": "At the end of the game, you lose 1 Victory Point for every Military Point you have. (For example, if you end the game with 12 Military Points, you lose 12 Victory Points.)",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateMilitaryPoints": {
+            "numberOfVictoryPointsForEachMilitaryPoint": "1"
+        }
+
+      }
+
+    },
+    {
+      "id": "6",
+      "period": "THIRD",
+      "description": "At the end of the game, you lose 1 Victory Point for every wood and stone on your Building Cards’ costs. (For example, if all your Building Cards cost 7 wood and 6 stone, you lose 13 Victory Points.)",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateCardCost": {
+            "victoryPointsToLose": "1"
+        }
+
+      }
+
+    },
+    {
+      "id": "7",
+      "period": "THIRD",
+      "description": "At the end of the game, you lose 1 Victory Point for every resource (wood, stone, coin, servant) in your supply on your Personal Board. (For example, if you end the game with 3 wood, 1 stone, 4 coins, and 2 servants, you lose 10 Victory Points.)",
+      "excommunicationState" : {
+        "excommunicationVictoryPointsToSubtractStateResources": {
+            "pointsToLooseForEachResource": "1"
+        }
+
+      }
+
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ShowSupportController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+         <effect>
+            <Lighting diffuseConstant="0.17" specularConstant="0.63" specularExponent="16.67" surfaceScale="1.74">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="38.0" text="SHOW SUPPORT?" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright Regular" size="39.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="cardPane" layoutX="91.0" layoutY="99.0">
+         <children>
+            <ImageView fitHeight="233.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/excommunications/excomm_1_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <Button layoutX="177.0" layoutY="349.0" mnemonicParsing="false" onAction="#onYesClicked" prefHeight="27.0" prefWidth="76.0" text="Yes">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button layoutX="340.0" layoutY="349.0" mnemonicParsing="false" onAction="#onNoClicked" prefHeight="27.0" prefWidth="76.0" text="No">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="101.0" fitWidth="62.0" layoutX="60.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/tools/faith_points.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="62.0" layoutX="471.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/tools/faith_points.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="descriptionPane" editable="false" layoutX="278.0" layoutY="118.0" prefHeight="200.0" prefWidth="224.0" wrapText="true">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <StackPane fx:id="lackOfFaith" onMouseClicked="#closePane" visible="false">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../pictures/tools/show_support.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

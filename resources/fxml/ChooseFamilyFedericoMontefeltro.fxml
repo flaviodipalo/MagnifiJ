@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ChooseFamilyMemberToAddValueController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="81.0" text="Choose family member to add value" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright Demibold" size="30.0" />
+         </font>
+      </Label>
+      <StackPane id="black" layoutX="75.0" layoutY="154.0" onMouseClicked="#onClick" onMouseEntered="#onEntered" onMouseExited="#onExited">
+         <children>
+            <Circle radius="46.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </StackPane>
+      <StackPane id="white" layoutX="199.0" layoutY="154.0" onMouseClicked="#onClick" onMouseEntered="#onEntered" onMouseExited="#onExited">
+         <children>
+            <Circle fill="WHITE" radius="46.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </StackPane>
+      <StackPane id="orange" layoutX="316.0" layoutY="154.0" onMouseClicked="#onClick" onMouseEntered="#onEntered" onMouseExited="#onExited">
+         <children>
+            <Circle fill="ORANGE" radius="46.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </StackPane>
+      <StackPane id="neutral" layoutX="433.0" layoutY="154.0" onMouseClicked="#onClick" onMouseEntered="#onEntered" onMouseExited="#onExited">
+         <children>
+            <Circle fill="GREY" radius="46.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

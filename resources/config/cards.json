@@ -1,0 +1,2689 @@
+{
+  "cards": [
+
+    {
+      "name": "Residence",
+      "id" : "32",
+      "period": "FIRST",
+      "cardColor": "YELLOW",
+      "cost": [
+        {
+
+          "resourcesToPay": {
+            "stone": "2"
+          }
+        }
+      ],
+      "instantReward": [
+        {
+          "instantRewardResources": {
+            "resources" :{
+              "victoryPoints": "1"
+            }
+
+          }
+        }
+      ],
+      "yellowReward": [{
+        "value": "1",
+        "requiredResources": {
+          "coins": "1"
+        },
+        "productedResources": {
+          "councilPrivilege": "1"
+        }
+      }]
+    },
+    {
+      "name": "Stonemason's Shop",
+      "id" : "30",
+      "period": "FIRST",
+      "cardColor": "YELLOW",
+      "cost": [
+        {
+          "resourcesToPay": {
+            "coins": "1",
+            "stone": "2"
+          }
+        }
+      ],
+      "instantReward": [
+        {
+          "instantRewardResources": {
+            "resources" : {
+              "victoryPoints": "2"
+            }
+
+          }
+        }
+      ],
+      "yellowReward": [
+        {
+          "value": "3",
+          "requiredResources": {
+            "stone": "1"
+          },
+          "productedResources": {
+            "coins": "3"
+          }
+        },
+        {
+          "value": "3",
+          "requiredResources": {
+            "stone": "2"
+          },
+          "productedResources": {
+            "coins": "5"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Mint",
+      "id" : "25",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "1",
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "5"
+            }
+          }
+
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "5",
+          "perCardResources" : {
+            "coins" : "1"
+          },
+          "perCardColor" : "YELLOW"
+        }
+      ]
+
+    },
+
+    {
+      "name" : "Triumphal Arch",
+      "id" : "27",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2",
+            "stone" : "2"
+          }
+        }
+
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "6"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "6",
+          "perCardResources" : {
+            "victoryPoints" : "1"
+          },
+          "perCardColor" : "PURPLE"
+        }
+      ]
+    },
+    {
+      "name" : "Theater",
+      "id" : "28",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2",
+            "wood" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "6"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "6",
+          "perCardResources" : {
+            "victoryPoints" : "1"
+          },
+          "perCardColor" : "BLUE"
+        }
+      ]
+    },
+    {
+      "name" : "Tax Office",
+      "id" : "26",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "3",
+            "stone" : "1"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "5"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "5",
+          "perCardResources" : {
+            "coins" : "1"
+          },
+          "perCardColor" : "GREEN"
+        }
+      ]
+
+    },
+    {
+      "name" : "Carpenter's Shop",
+      "id" : "29",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "1",
+            "wood" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "3"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "5",
+          "requiredResources" : {
+            "wood" : "1"
+          },
+          "productedResources" : {
+            "coins" : "3"
+          }
+        },
+        {
+          "value" : "5",
+          "requiredResources" : {
+            "wood" : "2"
+          },
+          "productedResources" : {
+            "coins" : "5"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Chapel",
+      "id" : "31",
+      "period" : "FIRST",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "2",
+          "requiredResources" : {
+            "coins" : "1"
+          },
+          "productedResources" : {
+            "faithPoints" : "1"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Painter's Gild",
+      "id" : "35",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "5"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "4",
+          "requiredResources" : {
+            "wood" : "1"
+          },
+          "productedResources" : {
+            "victoryPoints" : "3"
+          }
+        },
+        {
+          "value" : "4",
+          "requiredResources" : {
+            "wood" : "3"
+          },
+          "productedResources" : {
+            "victoryPoints" : "7"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "StrongHold",
+      "id" : "40",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2",
+            "wood" : "2",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "8"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "6",
+          "requiredResources" : {
+          },
+          "productedResources" : {
+            "militaryPoints" : "2",
+            "victoryPoints" : "2"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Treasury",
+      "id" : "34",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "4"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" :  "3",
+          "requiredResources" : {
+            "coins" : "1"
+          },
+          "productedResources" : {
+            "victoryPoints" : "3"
+          }
+        },
+        {
+          "value" : "3",
+          "requiredResources" : {
+            "coins" : "2"
+          },
+          "productedResources" : {
+            "victoryPoints" : "5"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Baptistery",
+      "id" : "38",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "2",
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "2",
+          "requiredResources" : {
+            "faithPoints" : "1"
+          },
+          "productedResources" : {
+            "coins" : "2",
+            "victoryPoints" : "2"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Barracks",
+      "id" : "39",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "1",
+            "stone" : "1"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "3"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "1",
+          "requiredResources" : {
+            "servants" : "1"
+          },
+          "productedResources" : {
+            "militaryPoints" : "3"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Stonemason's Guild",
+      "id" : "37",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "1",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "4"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "4",
+          "requiredResources" : {
+            "servants" : "1",
+            "wood" : "1",
+            "stone" : "1"
+          },
+          "productedResources" : {
+            "victoryPoints" : "6"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Sculptors' Guild",
+      "id" : "36",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "stone" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "6"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "5",
+          "requiredResources" : {
+            "stone" : "1"
+          },
+          "productedResources" : {
+            "victoryPoints" : "3"
+          }
+        },
+        {
+          "value" : "5",
+          "requiredResources" : {
+            "stone" : "3"
+          },
+          "productedResources" : {
+            "victoryPoints" : "7"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Marketplace",
+      "id" : "33",
+      "period" : "SECOND",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "2",
+            "stone" : "1"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "3"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "3",
+          "requiredResources" : {
+            "coins" : "3"
+          },
+          "productedResources" : {
+            "wood" : "2",
+            "stone" : "2"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Fair",
+      "id" : "42",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4",
+            "wood" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "8"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "4",
+          "requiredResources" : {
+            "coins" : "4"
+          },
+          "productedResources" : {
+            "wood" : "3",
+            "stone" : "3"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Military Academy",
+      "id" : "47",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "servants" : "1",
+            "wood" : "2",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "7"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "3",
+          "requiredResources" : {
+            "servants" : "1"
+          },
+          "productedResources" : {
+            "militaryPoints" : "3",
+            "victoryPoints" : "1"
+          }
+        }
+      ]
+    },
+
+    {
+      "name" : "Bank",
+      "id" : "41",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3",
+            "wood" : "1",
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "7"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "2",
+          "requiredResources" : {
+          },
+          "productedResources" : {
+            "coins" : "5"
+          }
+        }
+      ]
+    },
+
+    {
+      "name" : "Cathedral",
+      "id" : "48",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "4",
+            "stone" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "7",
+              "faithPoints" : "3"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "2",
+          "requiredResources" : {
+          },
+          "productedResources" : {
+            "victoryPoints" : "1"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Palace",
+      "id" : "45",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3",
+            "wood" : "3",
+            "stone" : "1"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "9"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "6",
+          "requiredResources" : {
+            "coins" : "1"
+          },
+          "productedResources" : {
+            "servants" : "2",
+            "victoryPoints" : "4"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Fortress",
+      "id" : "44",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2",
+            "wood" : "2",
+            "stone" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "9"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "5",
+          "requiredResources" : {
+          },
+          "productedResources" : {
+            "victoryPoints" : "2",
+            "councilPrivilege" : "1"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Church",
+      "id" : "46",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "1",
+            "stone" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "5",
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "1",
+          "requiredResources" : {
+            "wood" : "1"
+          },
+          "productedResources" : {
+            "faithPoints" : "2"
+          }
+        },
+        {
+          "value" : "1",
+          "requiredResources" : {
+            "stone" : "1"
+          },
+          "productedResources" : {
+            "faithPoints" : "2"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Garden",
+      "id" : "43",
+      "period" : "THIRD",
+      "cardColor" : "YELLOW",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "servants" : "2",
+            "wood" : "4",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "10"
+            }
+          }
+        }
+      ],
+      "yellowReward" : [
+        {
+          "value" : "1",
+          "requiredResources" : {
+          },
+          "productedResources" : {
+            "victoryPoints" : "3"
+          }
+        }
+      ]
+    },
+
+    {
+      "_comment" : "PURPLE CARDS!!",
+      "name" : "Hosting Panhandlers",
+      "id" : "78",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants" : "4"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+    {
+      "name" : "Fighting Heresies",
+      "id" : "79",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "5"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "2"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+
+    },
+    {
+      "name" : "Building the Walls",
+      "id" : "75",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "2",
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "3"
+      }
+    },
+
+    {
+      "name" : "Military Campaign",
+      "id" : "77",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "3"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins" : "3"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Repairing the Church",
+      "id" : "74",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "1",
+            "wood" : "1",
+            "stone" : "1"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Raising a Statue",
+      "id" : "76",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "2",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "councilPrivilege" : "2"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+
+    {
+      "name" : "Hiring Recruits",
+      "id" : "73",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "5"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+    {
+      "name" : "Support the Bishop",
+      "id" : "80",
+      "period" : "FIRST",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "4"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "2"
+          }
+        },
+        {
+          "resourcesToPay" : {
+            "wood" : "1",
+            "stone" : "1",
+            "coins" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "3"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "1"
+      }
+    },
+    {
+      "name" : "Improving the Canals",
+      "id" : "85",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "servants" : "2",
+            "coins" : "3"
+
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardHarvest" : {
+            "value" : "4"
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Support to the King",
+      "id" : "84",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "6"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins" : "5",
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "3"
+      }
+    },
+
+    {
+      "name" : "Support to the Cardinal",
+      "id" : "88",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "7"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "4"
+          }
+        },
+        {
+          "resourcesToPay" : {
+            "coins" : "3",
+            "wood" : "2",
+            "stone" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "3"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+
+    {
+      "name" : "Hosting Foreigners",
+      "id" : "86",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants" : "5"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+
+    {
+      "name" : "Crusade",
+      "id" : "87",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "8"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins" : "5",
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Building the Bastions",
+      "id" : "83",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "stone" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "3",
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "2"
+      }
+    },
+
+    {
+      "name" : "Hiring Soldiers",
+      "id" : "81",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "6"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Repairing the Abbey",
+      "id" : "82",
+      "period" : "SECOND",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2",
+            "wood" : "2",
+            "stone" : "2"
+
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "2"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "6"
+      }
+    },
+
+    {
+      "name" : "Military Conquest",
+      "id" : "93",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "12"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins" : "3",
+              "wood" : "3",
+              "stone" : "3"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "7"
+      }
+    },
+
+    {
+      "name" : "Repairing the Cathedral",
+      "id" : "90",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3",
+            "wood" : "3",
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        },
+        {
+          "instantRewardPick" : {
+            "cardColor" : "ALL",
+            "value" : "7",
+            "discount" : {
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+    {
+      "name" : "Improving the Roads",
+      "id" : "94",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "servants" : "3",
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardProduction" : {
+            "value" : "3"
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "5"
+      }
+    },
+
+    {
+      "name" : "Support to the Pope",
+      "id" : "96",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "10"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "5"
+          }
+        },
+        {
+          "resourcesToPay" : {
+            "coins" : "4",
+            "wood" : "3",
+            "stone" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "2"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "10"
+      }
+
+    },
+    {
+      "name" : "Promoting Sacred Art",
+      "id" : "92",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "wood" :  "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "3"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "3"
+      }
+    },
+
+    {
+      "name" : "Building the Towers",
+      "id" : "91",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "stone" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "4",
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "4"
+      }
+    },
+
+    {
+      "name" : "Hiring Mercenaries",
+      "id" : "89",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "8"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "7"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "6"
+      }
+    },
+
+    {
+      "name" : "Sacred War",
+      "id" : "95",
+      "period" : "THIRD",
+      "cardColor" : "PURPLE",
+      "cost" : [
+        {
+          "resourcesNeeded" : {
+            "militaryPoints" : "15"
+          },
+          "resourcesToPay" : {
+            "militaryPoints" : "8"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "4"
+            }
+          }
+        }
+      ],
+      "purpleReward" : {
+        "victoryPoints" : "8"
+      }
+    },
+
+    {
+      "id" : "6",
+      "name" : "Monastery",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants": "1",
+              "militaryPoints": "2"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "6",
+        "harvest" : {
+          "faithPoints" : "1",
+          "stone" : "1"
+        }
+      }
+    },
+
+
+    {
+      "name" : "City",
+      "id" : "8",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins" : "2"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "6",
+        "harvest" : {
+          "councilPrivilege":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Gravel Pit",
+      "id" : "4",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "stone" : "2"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "4",
+        "harvest" : {
+          "stone":"2"
+        }
+      }
+    },
+
+    {
+      "name" : "Citadel",
+      "id" : "7",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "greenReward" : {
+        "value" : "5",
+        "harvest" : {
+          "stone":"1",
+          "militaryPoints":"2"
+        }
+      }
+    },
+
+    {
+      "name" : "Woods",
+      "id" : "2",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "wood" : "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "2",
+        "harvest" : {
+          "wood":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Forest",
+      "id" : "5",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "wood" : "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "5",
+        "harvest" : {
+          "wood":"3"
+        }
+      }
+    },
+
+    {
+      "name" : "Commercial Hub",
+      "id" : "1",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+
+      "greenReward" : {
+        "value" : "1",
+        "harvest" : {
+          "coins":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Village",
+      "period" : "FIRST",
+      "cardColor" : "GREEN",
+      "id" : "3",
+
+      "greenReward" : {
+        "value" : "3",
+        "harvest" : {
+          "coins":"1",
+          "servants":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Estate",
+      "id" : "13",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants":"2",
+              "wood" : "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "4",
+        "harvest" : {
+          "coins":"1",
+          "wood":"2"
+        }
+      }
+    },
+
+    {
+      "name" : "Dukedom",
+      "id" : "16",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins":"4"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "6",
+        "harvest" : {
+          "coins":"1",
+          "wood":"2",
+          "stone":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Hermitage",
+      "id" : "14",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints":"1"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "2",
+        "harvest" : {
+          "faithPoints":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Mountain Town",
+      "id" : "10",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants" : "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "3",
+        "harvest" : {
+          "militaryPoints" : "1",
+          "wood" : "2"
+        }
+      }
+    },
+
+    {
+      "name" : "Rock Pit",
+      "id" : "12",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "wood":"1"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "3",
+        "harvest" : {
+          "stone":"3"
+        }
+      }
+    },
+
+    {
+      "name" : "Mining Town",
+      "id" : "11",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants" : "2",
+              "stone":"1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "4",
+        "harvest" : {
+          "servants" : "1",
+          "stone" : "2"
+        }
+      }
+    },
+
+    {
+      "name" : "Manor House",
+      "id" : "15",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "greenReward" : {
+        "value" : "5",
+        "harvest" : {
+          "servants" : "2",
+          "militaryPoints" : "2"
+        }
+      }
+    },
+    {
+      "name" : "Gold Mine",
+      "id" : "9",
+      "period" : "SECOND",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "coins": "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "1",
+        "harvest" : {
+          "servants" : "1",
+          "coins": "2"
+        }
+      }
+    },
+    {
+      "name" : "Sanctuary",
+      "id" : "22",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "1",
+        "harvest" : {
+          "faithPoints" : "1",
+          "coins": "1"
+        }
+      }
+    },
+
+    {
+      "name" : "Fortified Town",
+      "id" : "24",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "2",
+              "servants":"1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "2",
+        "harvest" : {
+          "militaryPoints" : "1",
+          "servants":"2"
+        }
+      }
+    },
+
+    {
+      "name" : "Farm",
+      "id" : "18",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "1",
+              "wood":"1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "3",
+        "harvest" : {
+          "victoryPoints" : "2",
+          "wood":"2"
+        }
+      }
+    },
+    {
+      "name" : "Colony",
+      "id" : "19",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints":"2"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "6",
+        "harvest" : {
+          "victoryPoints" : "4",
+          "wood":"1"
+        }
+      }
+    },
+    {
+      "name" : "Province",
+      "id" : "21",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "stone":"1",
+              "councilPrivilege":"1"
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "6",
+        "harvest" : {
+          "victoryPoints" : "4",
+          "stone":"1"
+        }
+      }
+    },
+    {
+      "name" : "Marble Pit",
+      "id" : "20",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "3"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "2",
+        "harvest" : {
+          "victoryPoints" : "1",
+          "stone":"2"
+        }
+      }
+    },
+    {
+      "name" : "Castle",
+      "id" : "23",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "victoryPoints" : "2",
+              "coins":"2"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "2",
+        "harvest" : {
+          "militaryPoints" : "3",
+          "servants":"1"
+        }
+      }
+    },
+
+    {
+      "name" : "Trading Town",
+      "id" : "17",
+      "period" : "THIRD",
+      "cardColor" : "GREEN",
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "servants" : "1",
+              "coins":"1"
+
+            }
+          }
+        }
+      ],
+      "greenReward" : {
+        "value" : "1",
+        "harvest" : {
+          "coins":"3"
+        }
+      }
+    },
+
+    {
+      "_comment" : "BLUE CARDS!!!",
+      "name" : "Dame",
+      "id" : "51",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "blueReward" : {
+        "pickBonus" : {
+          "cardColor" : "BLUE",
+          "value" : "2",
+          "discount" : [
+            {
+              "coins" : "1"
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "name" : "Artisan",
+      "id" : "54",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3"
+          }
+        }
+      ],
+      "blueReward" : {
+        "productionBonus" : {
+          "value" : "2"
+        }
+      }
+    },
+
+    {
+      "name" : "Stonemason",
+      "id" : "50",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "blueReward" : {
+        "pickBonus" : {
+          "cardColor" : "YELLOW",
+          "value" : "2",
+          "discount" : [
+            {
+              "wood" : "1"
+            },
+            {
+              "stone" : "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+
+      "name" : "Warlord",
+      "id" : "49",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "3"
+            }
+          }
+        }
+      ],
+      "blueReward" : {
+        "pickBonus" :
+          {
+            "cardColor" : "GREEN",
+            "value" : "2"
+          }
+      }
+    },
+    {
+      "name" : "Knight",
+      "id" : "52",
+      "cardColor" : "BLUE",
+      "period" : "FIRST",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "2"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ],
+      "blueReward" : {
+        "pickBonus" : {
+          "cardColor" : "PURPLE",
+          "value" : "2"
+        }
+      }
+    },
+    {
+      "name" :  "Abbes",
+      "id" : "56",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        },
+        {
+          "instantRewardPick" : {
+            "cardColor" : "ALL",
+            "value" : "4",
+            "discount" : {
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Preacher",
+      "id" : "55",
+      "cardColor" : "BLUE",
+      "period" : "FIRST",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : 2
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "4"
+            }
+          }
+        }
+      ],
+      "blueReward" : {
+        "isPreacher": true
+      }
+    },
+    {
+      "name" : "Farmer",
+      "id" : "53",
+      "period" : "FIRST",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3"
+          }
+        }
+      ],
+      "blueReward" : {
+        "harvestBonus" : {
+          "value" : "2"
+        }
+      }
+    },
+    {
+      "name" : "Papal Messenger",
+      "id" : "63",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "5"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Patron",
+      "id" : "59",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "3"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "ò" : {
+            "cardColor" : "BLUE",
+            "value" : "6",
+            "discount" : {
+              "coins" : "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Captain",
+      "id" : "57",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardPick" : {
+            "cardColor" : "GREEN",
+            "value" : "6",
+            "discount" : {
+            }
+          }
+        },
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "militaryPoints" : "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Royal Messenger",
+      "id" : "64",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "5"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "councilPrivilege" : "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Architect",
+      "id" : "58",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardPick" : {
+            "cardColor" : "YELLOW",
+            "value" : "6",
+            "discount" : {
+              "wood" : "1",
+              "stone" : "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Hero",
+      "id" : "60",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardPick" : {
+            "value" : "6",
+            "cardColor" : "PURPLE",
+            "discount" : {
+            }
+          }
+        },
+        {
+          "instantRewardResources" :{
+            "resources" : {
+              "councilPrivilege" : "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Peasant",
+      "id" : "61",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "blueReward" : {
+          "harvestBonus" : {
+            "value" : "3"
+          }
+      }
+    },
+    {
+      "name" : "Scholar",
+      "id" : "62",
+      "period" : "SECOND",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "blueReward" : {
+        "productionBonus" : {
+          "value" : "3"
+        }
+      }
+    },
+    {
+      "name" : "Herald",
+      "id" : "68",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardVictoryPoints" : {
+            "perCardColor" : "PURPLE",
+            "reward" : {
+              "victoryPoints" : "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "General",
+      "id" : "71",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "5"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardVictoryPoints" : {
+            "perResources" : {
+              "militaryPoints" : "2"
+            },
+            "reward" : {
+              "victoryPoints" : "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Bishop",
+      "id" : "70",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "5"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "1"
+            }
+          }
+        },
+        {
+          "instantRewardProduction" : {
+            "value" : "4"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Cardinal",
+      "id" : "69",
+      "cardColor" : "BLUE",
+      "period" : "THIRD",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "4"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "faithPoints" : "2"
+            }
+          }
+        },
+        {
+          "instantRewardHarvest" : {
+            "value" : "4"
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Paramour",
+      "id" : "67",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "7"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardVictoryPoints" : {
+            "perCardColor" : "BLUE",
+            "reward" : {
+              "victoryPoints" : "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Ambassadors",
+      "id" : "72",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardResources" : {
+            "resources" : {
+              "councilPrivilege" : "1"
+            }
+          }
+        },
+        {
+          "instantRewardPick" : {
+            "cardColor" : "ALL",
+            "value" : "7",
+            "discount" : {
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name" : "Noble",
+      "id" : "65",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardVictoryPoints" : {
+            "perCardColor" : "GREEN",
+            "reward" : {
+              "victoryPoints" : "2"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "name" : "Governor",
+      "id" : "66",
+      "period" : "THIRD",
+      "cardColor" : "BLUE",
+      "cost" : [
+        {
+          "resourcesToPay" : {
+            "coins" : "6"
+          }
+        }
+      ],
+      "instantReward" : [
+        {
+          "instantRewardVictoryPoints" : {
+            "perCardColor" : "YELLOW",
+            "reward" : {
+              "victoryPoints" : "2"
+            }
+          }
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "excommunicationCards1": [
+    {
+      "id": "01",
+      "Period": "1",
+      "description": "Ogni volta che guadagni Punti Militari (da uno spazio azione o da una carta Sviluppo), guadagni 1 Punto Militari in meno. (Se possiedi più carte da cui guadagni Punti Militari, considera ciascuna carta come una singola fonte, quindi guadagna 1 Punto Militare in meno per ogni carta.)",
+      "ExcommunicationAddResourcesState": [
+        {
+          "resourcesSubtractedForEachResource": "1",
+          "resourcesToSubtract": [
+            {
+              "militaryPoints": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "Period": "1",
+      "description": "Ogni volta che ricevi monete (da uno spazio azione o da una carta Sviluppo), ricevi 1 moneta in meno. (Se possiedi più carte da cui ricevi monete, considera ciascuna carta come una singola fonte, quindi ricevi 1 moneta in meno per ogni carta.)",
+      "ExcommunicationAddResourcesState": [
+        {
+          "resourcesSubtractedForEachResource": "1",
+          "resourcesToSubtract": [
+            {
+              "coins": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "Period": "1",
+      "description": "Ogni volta che ricevi servitori (da uno spazio azione o da una carta Sviluppo), ricevi 1 servitori in meno. (Se possiedi più carte da cui ricevi servitori, considera ciascuna carta come una singola fonte, quindi ricevi 1 servitori in meno per ogni carta.)",
+      "ExcommunicationAddResourcesState": [
+        {
+          "resourcesSubtractedForEachResource": "1",
+          "resourcesToSubtract": [
+            {
+              "servants": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "Period": "1",
+      "description": "Ogni volta che ricevi servitori (da uno spazio azione o da una carta Sviluppo), ricevi 1 servitori in meno. (Se possiedi più carte da cui ricevi servitori, considera ciascuna carta come una singola fonte, quindi ricevi 1 servitori in meno per ogni carta.)",
+      "ExcommunicationAddResourcesState": [
+        {
+          "resourcesSubtractedForEachResource": "1",
+          "resourcesToSubtract": [
+            {
+              "wood": "1"
+            },
+            {
+              "stone": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "Period": "1",
+      "description": "Ogni volta che effettui un’azione Raccolto (attraverso uno spazio azione o per effetto di carte Sviluppo o Leader), riduci il valore dell’azione di -3. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso. (Se per esempio piazzi un familiare nello spazio azione più grande, il valore dell’azione è ridotto di -6.)",
+      "ExcommunicationHarvestState": [
+        {
+          "HARVEST_BONUS": "-3"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "Period": "1",
+      "description": "Ogni volta che effettui un’azione Produzione (attraverso uno spazio azione o per effetto di carte Sviluppo o Leader), riduci il valore dell’azione di -3. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso. (Se per esempio piazzi un familiare nello spazio azione più grande, il valore dell’azione è ridotto di -6.)",
+      "ExcommunicationProductionState": [
+        {
+          "PRODUCTION_BONUS": "-3"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "Period": "1",
+      "description": "Il valore dei tuoi familiari colorati è ridotto di -1, ogni volta che li piazzi. (Per esempio, se il dado nero vale 5, il tuo familiare nero vale 4.) Puoi sempre aumentare il loro valore spendendo servitori o per effetto di carte Personaggio in tuo possesso.",
+      "ExcommunicationFamilyMemberState": [
+        {
+          "valueToSubtract": "1"
+        }
+      ]
+    }
+  ],
+  "excommunicationCards2": [
+    {
+      "id": "08",
+      "Period": "2",
+      "description": "Ogni volta che prendi una carta Territorio (attraverso uno spazio azione o per effetto di una carta Sviluppo), il valore della tua azione è ridotto di -4. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso.",
+      "ExcommunicationPickCardState": [
+        {
+          "cardColor": "GREEN",
+          "BONUS_DICE_VALUE": "-4"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "Period": "2",
+      "description": "Ogni volta che prendi una carta Territorio (attraverso uno spazio azione o per effetto di una carta Sviluppo), il valore della tua azione è ridotto di -4. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso.",
+      "ExcommunicationPickCardState": [
+        {
+          "cardColor": "GREEN",
+          "BONUS_DICE_VALUE": "-4"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "Period": "2",
+      "description": "Ogni volta che prendi una carta Edi cio (attraverso uno spazio azione o per effetto di una carta Sviluppo), il valore della tua azione è ridotto di -4. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso.",
+      "ExcommunicationPickCardState": [
+        {
+          "cardColor": "YELLOW",
+          "BONUS_DICE_VALUE": "-4"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "Period": "2",
+      "description": "Ogni volta che prendi una carta Personaggio (attraverso uno spazio azione o per effetto di una carta Sviluppo), il valore della tua azione è ridotto di -4. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso.",
+      "ExcommunicationPickCardState": [
+        {
+          "cardColor": "BLUE",
+          "BONUS_DICE_VALUE": "-4"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "Period": "2",
+      "description": "Ogni volta che prendi una carta Impresa (attraverso uno spazio azione o per effetto di una carta Sviluppo), il valore della tua azione è ridotto di -4. Puoi sempre aumentare il valore dell’azione spendendo servitori o per effetto di carte in tuo possesso.",
+      "ExcommunicationPickCardState": [
+        {
+          "cardColor": "PURPLE",
+          "BONUS_DICE_VALUE": "-4"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "Period": "2",
+      "description": "Non puoi piazzare familiari negli spazi azione del Mercato.",
+      "ExcommunicationMarketState": []
+    },
+    {
+      "id": "13",
+      "Period": "2",
+      "description": "You have to spend 2 servants to increase your action value by 1 (and 4 servants to increase it by 2, and so on...).",
+      "ExcommunicationAddServantsState": [
+        {
+          "servantsNeededToAddValue": "2"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "Period": "2",
+      "description": "Each round, you skip your  rst turn. (When you have to place your first Family Member, you have to pass.) You start taking actions from the second turn (in the appropriate turn order.) When all controller.players have taken all their turns, you may still place your last Family Member.",
+      "ExcommunicationSkipTurnState": [
+      ]
+    }
+  ],
+  "excommunicationCards3": [
+    {
+      "id": "15",
+      "Period": "3",
+      "description": "At the end of the game, you don’t score points for any of your In uenced Characters.",
+      "ExcommunicationVictoryPointsToSubtractStateCards": [
+        {
+          "cardColor": "BLUE"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "Period": "3",
+      "description": "At the end of the game, you don’t score points for any of your Encouraged Ventures.",
+      "ExcommunicationVictoryPointsToSubtractStateCards": [
+        {
+          "cardColor": "PURPLE"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "Period": "3",
+      "description": "At the end of the game, you don’t score points for any of your Conquered Territories.",
+      "ExcommunicationVictoryPointsToSubtractStateCards": [
+        {
+          "cardColor": "GREEN"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "Period": "3",
+      "description": "At the end of the game, before the Final Scoring, you lose 1 Victory Point for every 5 Victory Points you have. (For example, if you have 26 Victory Points before the Final Scoring, you lose 5 Victory Points.)",
+      "ExcommunicationVictoryPointsToSubtractStateVictoryPoints": [
+        {
+          "pointsNeededToLoseOneVictoryPoint": "5"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "Period": "3",
+      "description": "At the end of the game, you lose 1 Victory Point for every Military Point you have. (For example, if you end the game with 12 Military Points, you lose 12 Victory Points.)",
+      "ExcommunicationVictoryPointsToSubtractStateMilitaryPoints": [
+        {
+          "numberOfVictoryPointsForEachMilitaryPoint": "1"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "Period": "3",
+      "description": "At the end of the game, you lose 1 Victory Point for every wood and stone on your Building Cards’ costs. (For example, if all your Building Cards cost 7 wood and 6 stone, you lose 13 Victory Points.)",
+      "ExcommunicationVictoryPointsToSubtractCardCost": [
+        {
+          "victoryPointsToLose": "1"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "Period": "3",
+      "description": "At the end of the game, you lose 1 Victory Point for every resource (wood, stone, coin, servant) in your supply on your Personal Board. (For example, if you end the game with 3 wood, 1 stone, 4 coins, and 2 servants, you lose 10 Victory Points.)",
+      "ExcommunicationVictoryPointsToSubtractResources": [
+        {
+          "pointsToLooseForEachResource": "1"
+        }
+      ]
+    }
+  ]
+}

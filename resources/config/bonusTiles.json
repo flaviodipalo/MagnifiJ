@@ -1,0 +1,61 @@
+{
+  "bonusTiles" : [
+    {
+      "id" : "5",
+      "productionDiceValue" : "1",
+      "harvestDiceValue" : "1",
+      "productionReward" : {
+        "servants" : "1",
+        "militaryPoints" : "2"
+      },
+      "harvestReward" : {
+        "wood" : "1",
+        "stone" : "1",
+        "coins" : "1"
+      }
+    },
+    {
+      "id" : "3",
+      "productionDiceValue" : "1",
+      "harvestDiceValue" : "1",
+      "productionReward" : {
+        "militaryPoints" : "2",
+        "coins" : "1"
+      },
+      "harvestReward" : {
+        "wood" : "1",
+        "stone" : "1",
+        "servants" : "1"
+      }
+    },
+    {
+      "id" : "2",
+      "productionDiceValue": "1",
+      "harvestDiceValue": "1",
+      "productionReward": {
+        "servants": "2",
+        "coins": "1"
+      },
+      "harvestReward": {
+        "wood": "1",
+        "stone": "1",
+        "militaryPoints": "1"
+      }
+    },
+    {
+      "id" : "4",
+      "productionDiceValue" : "1",
+      "harvestDiceValue" : "1",
+      "productionReward" : {
+        "servants" : "1",
+        "coins" : "2"
+      },
+      "harvestReward" : {
+        "wood" : "1",
+        "stone" : "1",
+        "militaryPoints" : "1"
+      }
+    }
+
+  ]
+}

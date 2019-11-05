@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="343.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ChooseRewardToProduceController">
+   <children>
+      <ImageView fitHeight="354.0" fitWidth="494.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+         <effect>
+            <Shadow blurType="GAUSSIAN" height="166.71" radius="64.6425" width="93.86" />
+         </effect>
+      </ImageView>
+      <StackPane layoutX="179.0" layoutY="100.0">
+         <children>
+            <ImageView fx:id="card" fitHeight="198.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/LorenzoCards/devcards_f_en_c_25.png" />
+               </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ImageView>
+         </children>
+      </StackPane>
+      <Label layoutX="78.0" layoutY="34.0" text="Choose a reward to produce!" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright Regular" size="24.0" />
+         </font>
+      </Label>
+      <Button id="0" layoutX="139.0" layoutY="223.0" mnemonicParsing="false" onAction="#onClick" text="1">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button id="1" layoutX="139.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClick" text="2">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

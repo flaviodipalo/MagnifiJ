@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="323.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.LeaderCardsController">
+   <children>
+      <ImageView fitHeight="323.0" fitWidth="791.0" pickOnBounds="true" smooth="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="cards" layoutX="14.0" layoutY="14.0">
+         <children>
+            <StackPane onMouseClicked="#onCardSelected">
+               <children>
+                  <ImageView fitHeight="279.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="194.0" onMouseClicked="#onCardSelected">
+               <children>
+                  <ImageView fitHeight="279.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="388.0" onMouseClicked="#onCardSelected">
+               <children>
+                  <ImageView fitHeight="279.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="582.0" onMouseClicked="#onCardSelected">
+               <children>
+                  <ImageView fitHeight="279.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="wait" prefHeight="323.0" prefWidth="791.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="322.0" fitWidth="791.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+               </image>
+               <effect>
+                  <Shadow color="#000000c1" />
+               </effect>
+            </ImageView>
+            <Label prefHeight="111.0" prefWidth="718.0" text="Wait for the other model.players" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="53.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

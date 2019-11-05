@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.FamilyMemberPopUpController">
+   <children>
+      <ImageView fitHeight="300.0" fitWidth="439.0" layoutX="6.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../pictures/board/backgroud_family_member.jpg" />
+         </image>
+      </ImageView>
+      <StackPane fx:id="orangeMember" layoutX="33.0" layoutY="106.0" onMouseClicked="#onFamilySelected" prefHeight="81.0" prefWidth="71.0">
+         <children>
+            <Circle id="orange" fill="ORANGE" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label text="1" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="whiteMember" layoutX="129.0" layoutY="106.0" onMouseClicked="#onFamilySelected" prefHeight="81.0" prefWidth="71.0">
+         <children>
+            <Circle id="white" fill="WHITE" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label text="1" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="blackMember" layoutX="233.0" layoutY="106.0" onMouseClicked="#onFamilySelected" prefHeight="81.0" prefWidth="71.0">
+         <children>
+            <Circle id="black" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label text="1" textFill="WHITE" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="neutralMember" layoutX="324.0" layoutY="106.0" onMouseClicked="#onFamilySelected" prefHeight="81.0" prefWidth="71.0">
+         <children>
+            <Circle id="neutral" fill="GREY" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label text="1" />
+         </children>
+      </StackPane>
+      <Label layoutX="63.0" layoutY="48.0" text="Select a family member">
+         <font>
+            <Font name="Lucida Bright Regular" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmButton" layoutX="319.0" layoutY="224.0" mnemonicParsing="false" onAction="#onConfirmAction" prefHeight="27.0" prefWidth="81.0" text="Confirm" />
+      <ChoiceBox fx:id="nServants" layoutX="138.0" layoutY="224.0" prefHeight="27.0" prefWidth="54.0" />
+      <Label layoutX="13.0" layoutY="227.0" text="add servants:">
+         <font>
+            <Font name="Lucida Bright Regular" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="228.0" layoutY="224.0" mnemonicParsing="false" onAction="#onCancelAction" prefHeight="27.0" prefWidth="81.0" text="Cancel" />
+      <Label fx:id="error" layoutX="230.0" layoutY="261.0" prefHeight="17.0" prefWidth="170.0" textFill="RED">
+         <font>
+            <Font name="Lucida Bright Regular" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

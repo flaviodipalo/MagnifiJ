@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="351.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ChooseLeaderToCopyController">
+   <children>
+      <ImageView fitHeight="351.0" fitWidth="647.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../pictures/board/punchboard_b_c_03.jpg" />
+         </image>
+         <effect>
+            <Shadow height="242.61" radius="98.795" width="154.57" />
+         </effect>
+      </ImageView>
+      <AnchorPane fx:id="cards" layoutX="14.0" layoutY="108.0">
+         <children>
+            <StackPane onMouseClicked="#onCardClicked" onMouseEntered="#onCardEntered" onMouseExited="#onCardExited" visible="false">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="155.0" onMouseClicked="#onCardClicked" onMouseEntered="#onCardEntered" onMouseExited="#onCardExited" visible="false">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="310.0" onMouseClicked="#onCardClicked" onMouseEntered="#onCardEntered" onMouseExited="#onCardExited" visible="false">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="464.0" onMouseClicked="#onCardClicked" onMouseEntered="#onCardEntered" onMouseExited="#onCardExited" visible="false">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/leaderCards/leaders_f_c_01.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </StackPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="47.0" layoutY="23.0" prefHeight="65.0" prefWidth="567.0" text="Choose the leader card you want to copy" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright Regular" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
