@@ -15,7 +15,6 @@ These are the core elements that has been implemented and tested.
 - Socket Networking
 - Graphical user interface (GUI)
 - Command line interface (CLI)
-- Fifth player (We extended the basic game rules to account for a fifth player)
 - Game persistence: stop playing and resume later. 
 - Management of network failure: disconnection & reconnection
 - Complete configuration of game parameters, cards etc. via JSON files
