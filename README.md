@@ -1,6 +1,8 @@
 # MagnifiJ
-Java implementation of the famous board game "Lorenzo il Magnifico" by Cranio Creations:
-http://craniointernational.com/products/lorenzo-il-magnifico/
+Java implementation of the famous board game "Lorenzo il Magnifico" by Cranio Creations: http://craniointernational.com/products/lorenzo-il-magnifico/
+
+![Image of Lorenzo](https://github.com/flaviodipalo/MagnifiJ/blob/master/esploso-lorenzo.png)
+
 
 All the graphical assets included are exclusive property of Cranio Creations. 
 
